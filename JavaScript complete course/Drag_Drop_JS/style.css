@@ -1,0 +1,36 @@
+.imgBox {
+    background-image: url('asif.jpg');
+    width: 145px;
+    height: 145px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    border-radius: 72px;
+    cursor: pointer;
+}
+
+body {
+    background-color: darkslateblue;
+}
+
+.whiteBox {
+    border: 3px solid black;
+    display: inline-block;
+    background-color: white;
+    width: 155px;
+    height: 155px;
+    margin: 10px;
+}
+
+.hold {
+    border: 3px solid red;
+}
+
+.hide {
+    display: none;
+}
+
+.dashed {
+    background-color: gray;
+    border-style: dashed;
+}
